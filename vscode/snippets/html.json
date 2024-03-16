@@ -1,0 +1,89 @@
+{
+	"Macro Alert": {
+		"prefix": [
+			"ma",
+			"malert",
+		],
+		"body": "<div class=\"macro-alert\" data-alert=\"${1:info}\">\n\t<div class=\"row\">\n\t\t<div class=\"col\">\n\t\t\t<p class=\"fwb\">${2:Information}</p>\n\t\t\t<p>\n\t\t\t\t$3\n\t\t\t</p>\n\t\t</div>\n\t</div>\n</div>",
+		"description": "Display alert div for my articles"
+	},
+	"Article Image": {
+		"prefix": [
+			"mi",
+			"mimage",
+		],
+		"body": "<div class=\"text-center mb-5 mt-4\">\n\t<img class=\"img-thumbnail\" src=\"/images/articles/$1\"\n\t\talt=\"$2\">\n</div>",
+		"description": "Display an image for my articles"
+	},
+	"span code-color": {
+		"prefix": [
+			"sc",
+			"scode",
+		],
+		"body": "<span class=\"code-color\">$1</span>$2",
+		"description": "span code-color"
+	},
+	"span keyword-color": {
+		"prefix": [
+			"sk",
+			"skeyword",
+		],
+		"body": "<span class=\"keyword-color\">$1</span>$2",
+		"description": "span keyword-color"
+	},
+	"span cmd-color": {
+		"prefix": [
+			"scm",
+			"scmd",
+		],
+		"body": "<span class=\"cmd-color\">$1</span>$2",
+		"description": "span cmd-color"
+	},
+	"span file-color": {
+		"prefix": [
+			"sf",
+			"sfile",
+		],
+		"body": "<span class=\"file-color\">$1</span>$2",
+		"description": "span file-color"
+	},
+	"span path-color": {
+		"prefix": [
+			"sp",
+			"spath",
+		],
+		"body": "<span class=\"path-color\">$1</span>$2",
+		"description": "span path-color"
+	},
+	"span info-color": {
+		"prefix": [
+			"si",
+			"sinfo",
+		],
+		"body": "<span class=\"info-color\">$1</span>$2",
+		"description": "span info-color"
+	},
+	"language area with result": {
+		"prefix": [
+			"lg",
+			"language",
+		],
+		"body": "<pre><code class=\"language-${1:shell}\">$2</code></pre>\n\n<p class=\"fwb green-color\">Résultat :</p>\n\n<pre><code class=\"language-textile\">$3</code></pre>",
+		"description": "pre>code.language-lg res pre>code.language-textile"
+	},
+	"language area single": {
+		"prefix": [
+			"lgs",
+			"languages",
+		],
+		"body": "<pre><code class=\"language-${1:shell}\">$2</code></pre>",
+		"description": "pre>code.language-lg"
+	},
+	"article image": {
+		"prefix": [
+			"imga",
+		],
+		"body": "<div class=\"text-center mb-5 mt-4\">\n\t<img class=\"img-thumbnail\"\n\t\tsrc=\"/images/articles/${1}\"\n\t\talt=\"${2}\"\n\t>\n</div>",
+		"description": "pre>code.language-lg"
+	},
+}

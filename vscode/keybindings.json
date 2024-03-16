@@ -1,0 +1,141 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+[Quote]",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+
+    {
+        "key": "ctrl+[Backquote]",
+        "command": "workbench.action.positionPanelRight",
+        "when": "panelPosition == 'bottom'"
+    },
+    {
+        "key": "ctrl+[Backquote]",
+        "command": "workbench.action.positionPanelBottom",
+        "when": "panelPosition == 'right'"
+    },
+    {
+        "key": "ctrl+[Backslash]",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+[Backslash]",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+[Quote]",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+[Quote]",
+        "command": "workbench.action.splitEditorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "workbench.action.terminal.resizePaneLeft",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "workbench.action.terminal.resizePaneRight",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+Up",
+        "command": "workbench.action.terminal.resizePaneUp",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+Down",
+        "command": "workbench.action.terminal.resizePaneDown",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+
+
+    
+
+    // ------------------SELECTIONS------------------
+    // PLEASE INSTALL THE "Quick and Simple Text Selection" BEFORE
+    {
+        "key": "ctrl+shift+a",
+        "command": "editor.emmet.action.balanceOut"
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "extension.selectCurlyBrackets",
+    },
+    {
+        "key": "ctrl+shift+3",
+        "command": "extension.selectDoubleQuote",
+    },
+    {
+        "key": "ctrl+shift+4",
+        "command": "extension.selectSingleQuote",
+    },
+    {
+        "key": "ctrl+shift+7",
+        "command": "extension.selectEitherQuote",
+    },
+    {
+        "key": "ctrl+shift+8",
+        "command": "extension.selectSquareBrackets",
+    },
+    {
+        "key": "ctrl+shift+9",
+        "command": "extension.selectParenthesis",
+    },
+    {
+        "key": "ctrl+shift+[Minus]",
+        "command": "extension.selectSquareBrackets",
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "extension.vim_ctrl+r",
+        "when": "textInputFocus && vim.mode != 'Insert'"
+    },
+]
